@@ -13,6 +13,16 @@
 		698A40C524F83D2800D2C22A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698A40C324F83D2800D2C22A /* Main.storyboard */; };
 		698A40C724F83D2B00D2C22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698A40C624F83D2B00D2C22A /* Assets.xcassets */; };
 		698A40CA24F83D2B00D2C22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698A40C824F83D2B00D2C22A /* LaunchScreen.storyboard */; };
+		698A40DC24F84EF100D2C22A /* SB Maffija - Lasy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 698A40D224F84EEE00D2C22A /* SB Maffija - Lasy.mp3 */; };
+		698A40DD24F84EF100D2C22A /* SB Maffija - Nie ma raju bez węża.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 698A40D324F84EEE00D2C22A /* SB Maffija - Nie ma raju bez węża.mp3 */; };
+		698A40DE24F84EF100D2C22A /* SB Maffija - Dla sióstr.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 698A40D424F84EEF00D2C22A /* SB Maffija - Dla sióstr.mp3 */; };
+		698A40DF24F84EF100D2C22A /* SB Maffija - Przepis na dzień dobry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 698A40D524F84EEF00D2C22A /* SB Maffija - Przepis na dzień dobry.mp3 */; };
+		698A40E024F84EF100D2C22A /* SB Maffija - Biorę się w garść.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 698A40D624F84EEF00D2C22A /* SB Maffija - Biorę się w garść.mp3 */; };
+		698A40E124F84EF100D2C22A /* SB Maffija - LTTN.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 698A40D724F84EEF00D2C22A /* SB Maffija - LTTN.mp3 */; };
+		698A40E224F84EF100D2C22A /* SB Maffija - Zimna noc i szybkie auta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 698A40D824F84EF000D2C22A /* SB Maffija - Zimna noc i szybkie auta.mp3 */; };
+		698A40E324F84EF100D2C22A /* SB Maffija - ZNOWU RAZEM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 698A40D924F84EF000D2C22A /* SB Maffija - ZNOWU RAZEM.mp3 */; };
+		698A40E424F84EF100D2C22A /* SB Maffija - A nie pamiętasz jak.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 698A40DA24F84EF100D2C22A /* SB Maffija - A nie pamiętasz jak.mp3 */; };
+		698A40E524F84EF100D2C22A /* SB Maffija - Hotel Maffija.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 698A40DB24F84EF100D2C22A /* SB Maffija - Hotel Maffija.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		698A40C624F83D2B00D2C22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		698A40C924F83D2B00D2C22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		698A40CB24F83D2B00D2C22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698A40D224F84EEE00D2C22A /* SB Maffija - Lasy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SB Maffija - Lasy.mp3"; sourceTree = "<group>"; };
+		698A40D324F84EEE00D2C22A /* SB Maffija - Nie ma raju bez węża.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SB Maffija - Nie ma raju bez węża.mp3"; sourceTree = "<group>"; };
+		698A40D424F84EEF00D2C22A /* SB Maffija - Dla sióstr.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SB Maffija - Dla sióstr.mp3"; sourceTree = "<group>"; };
+		698A40D524F84EEF00D2C22A /* SB Maffija - Przepis na dzień dobry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SB Maffija - Przepis na dzień dobry.mp3"; sourceTree = "<group>"; };
+		698A40D624F84EEF00D2C22A /* SB Maffija - Biorę się w garść.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SB Maffija - Biorę się w garść.mp3"; sourceTree = "<group>"; };
+		698A40D724F84EEF00D2C22A /* SB Maffija - LTTN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SB Maffija - LTTN.mp3"; sourceTree = "<group>"; };
+		698A40D824F84EF000D2C22A /* SB Maffija - Zimna noc i szybkie auta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SB Maffija - Zimna noc i szybkie auta.mp3"; sourceTree = "<group>"; };
+		698A40D924F84EF000D2C22A /* SB Maffija - ZNOWU RAZEM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SB Maffija - ZNOWU RAZEM.mp3"; sourceTree = "<group>"; };
+		698A40DA24F84EF100D2C22A /* SB Maffija - A nie pamiętasz jak.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SB Maffija - A nie pamiętasz jak.mp3"; sourceTree = "<group>"; };
+		698A40DB24F84EF100D2C22A /* SB Maffija - Hotel Maffija.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SB Maffija - Hotel Maffija.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +83,26 @@
 				698A40C624F83D2B00D2C22A /* Assets.xcassets */,
 				698A40C824F83D2B00D2C22A /* LaunchScreen.storyboard */,
 				698A40CB24F83D2B00D2C22A /* Info.plist */,
+				698A40D124F84EA200D2C22A /* Sounds */,
 			);
 			path = HotelMaffija;
+			sourceTree = "<group>";
+		};
+		698A40D124F84EA200D2C22A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				698A40DA24F84EF100D2C22A /* SB Maffija - A nie pamiętasz jak.mp3 */,
+				698A40D624F84EEF00D2C22A /* SB Maffija - Biorę się w garść.mp3 */,
+				698A40D424F84EEF00D2C22A /* SB Maffija - Dla sióstr.mp3 */,
+				698A40DB24F84EF100D2C22A /* SB Maffija - Hotel Maffija.mp3 */,
+				698A40D224F84EEE00D2C22A /* SB Maffija - Lasy.mp3 */,
+				698A40D724F84EEF00D2C22A /* SB Maffija - LTTN.mp3 */,
+				698A40D324F84EEE00D2C22A /* SB Maffija - Nie ma raju bez węża.mp3 */,
+				698A40D524F84EEF00D2C22A /* SB Maffija - Przepis na dzień dobry.mp3 */,
+				698A40D824F84EF000D2C22A /* SB Maffija - Zimna noc i szybkie auta.mp3 */,
+				698A40D924F84EF000D2C22A /* SB Maffija - ZNOWU RAZEM.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +163,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				698A40E524F84EF100D2C22A /* SB Maffija - Hotel Maffija.mp3 in Resources */,
+				698A40E424F84EF100D2C22A /* SB Maffija - A nie pamiętasz jak.mp3 in Resources */,
+				698A40DC24F84EF100D2C22A /* SB Maffija - Lasy.mp3 in Resources */,
 				698A40CA24F83D2B00D2C22A /* LaunchScreen.storyboard in Resources */,
 				698A40C724F83D2B00D2C22A /* Assets.xcassets in Resources */,
+				698A40E124F84EF100D2C22A /* SB Maffija - LTTN.mp3 in Resources */,
+				698A40E324F84EF100D2C22A /* SB Maffija - ZNOWU RAZEM.mp3 in Resources */,
+				698A40DD24F84EF100D2C22A /* SB Maffija - Nie ma raju bez węża.mp3 in Resources */,
+				698A40DE24F84EF100D2C22A /* SB Maffija - Dla sióstr.mp3 in Resources */,
+				698A40DF24F84EF100D2C22A /* SB Maffija - Przepis na dzień dobry.mp3 in Resources */,
+				698A40E224F84EF100D2C22A /* SB Maffija - Zimna noc i szybkie auta.mp3 in Resources */,
 				698A40C524F83D2800D2C22A /* Main.storyboard in Resources */,
+				698A40E024F84EF100D2C22A /* SB Maffija - Biorę się w garść.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

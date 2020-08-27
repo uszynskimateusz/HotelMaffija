@@ -15,18 +15,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Vhn-bO-SWD">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="Vhn-bO-SWD">
                                 <rect key="frame" x="0.0" y="52" width="414" height="810"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a7f-c1-dXO" userLabel="titleView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="202.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="192"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gag-52-xQQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="202.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="192"/>
                                                 <state key="normal" title="hotelmaffija" image="hotelmaffija"/>
+                                                <connections>
+                                                    <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O9V-bY-CMj"/>
+                                                </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="Gag-52-xQQ" secondAttribute="trailing" id="1L7-gZ-2ui"/>
                                             <constraint firstAttribute="bottom" secondItem="Gag-52-xQQ" secondAttribute="bottom" id="5Ce-ZD-JlA"/>
@@ -37,27 +39,35 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9jb-Zi-7NZ" userLabel="topView">
-                                        <rect key="frame" x="0.0" y="202.5" width="414" height="202.5"/>
+                                        <rect key="frame" x="0.0" y="206" width="414" height="192"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="P2j-bG-gYd">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="202.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="192"/>
                                                 <subviews>
                                                     <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qo-qf-JOh">
-                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="202.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="192"/>
                                                         <state key="normal" title="przepisnadziendobry" image="przepisnadziendobry"/>
+                                                        <connections>
+                                                            <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4U0-4h-naJ"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vly-ds-962">
-                                                        <rect key="frame" x="138" y="0.0" width="138" height="202.5"/>
+                                                        <rect key="frame" x="138" y="0.0" width="138" height="192"/>
                                                         <state key="normal" title="bioresiewgarsc" image="bioresiewgarsc"/>
+                                                        <connections>
+                                                            <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q6M-IF-cYw"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMw-ZT-NDu">
-                                                        <rect key="frame" x="276" y="0.0" width="138" height="202.5"/>
+                                                        <rect key="frame" x="276" y="0.0" width="138" height="192"/>
                                                         <state key="normal" title="aniepamietaszjak" image="aniepamietaszjak"/>
+                                                        <connections>
+                                                            <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zoF-F8-YGY"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstItem="P2j-bG-gYd" firstAttribute="top" secondItem="9jb-Zi-7NZ" secondAttribute="top" id="0LP-qf-n06"/>
                                             <constraint firstItem="P2j-bG-gYd" firstAttribute="centerY" secondItem="9jb-Zi-7NZ" secondAttribute="centerY" id="4bC-oZ-TtP"/>
@@ -68,27 +78,35 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DCT-NG-V8E" userLabel="middleView">
-                                        <rect key="frame" x="0.0" y="405" width="414" height="202.5"/>
+                                        <rect key="frame" x="0.0" y="412" width="414" height="192"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="DdS-0C-hzR">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="202.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="192"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OsM-IB-WyZ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="202.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="192"/>
                                                         <state key="normal" title="lasy" image="lasy"/>
+                                                        <connections>
+                                                            <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JLX-6U-M4c"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="064-Sj-IZL">
-                                                        <rect key="frame" x="138" y="0.0" width="138" height="202.5"/>
+                                                        <rect key="frame" x="138" y="0.0" width="138" height="192"/>
                                                         <state key="normal" title="dlasiostr" image="dlasiostr"/>
+                                                        <connections>
+                                                            <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rFx-Et-KpT"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0e-E3-d8F">
-                                                        <rect key="frame" x="276" y="0.0" width="138" height="202.5"/>
+                                                        <rect key="frame" x="276" y="0.0" width="138" height="192"/>
                                                         <state key="normal" title="niemarajubezweza" image="niemarajubezweza"/>
+                                                        <connections>
+                                                            <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Md-hL-Aat"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="DdS-0C-hzR" secondAttribute="trailing" id="26H-oz-40Z"/>
                                             <constraint firstItem="DdS-0C-hzR" firstAttribute="centerX" secondItem="DCT-NG-V8E" secondAttribute="centerX" id="Cqc-7f-YwX"/>
@@ -99,27 +117,35 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qnb-d1-TbP" userLabel="bottomView">
-                                        <rect key="frame" x="0.0" y="607.5" width="414" height="202.5"/>
+                                        <rect key="frame" x="0.0" y="618" width="414" height="192"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fXJ-pp-h6P">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="202.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="192"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMn-nM-wch">
-                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="202.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="192"/>
                                                         <state key="normal" title="zimnanociszybkieauta" image="zimnanociszybkieauta"/>
+                                                        <connections>
+                                                            <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LE6-gK-v7R"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWa-2z-vj9">
-                                                        <rect key="frame" x="138" y="0.0" width="138" height="202.5"/>
+                                                        <rect key="frame" x="138" y="0.0" width="138" height="192"/>
                                                         <state key="normal" title="lttn" image="lttn"/>
+                                                        <connections>
+                                                            <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Onh-Ss-Hfv"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OAY-3T-TnG">
-                                                        <rect key="frame" x="276" y="0.0" width="138" height="202.5"/>
+                                                        <rect key="frame" x="276" y="0.0" width="138" height="192"/>
                                                         <state key="normal" title="znowurazem" image="znowurazem"/>
+                                                        <connections>
+                                                            <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rSq-kw-ECa"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstItem="fXJ-pp-h6P" firstAttribute="centerX" secondItem="qnb-d1-TbP" secondAttribute="centerX" id="2A6-Td-otv"/>
                                             <constraint firstItem="fXJ-pp-h6P" firstAttribute="leading" secondItem="qnb-d1-TbP" secondAttribute="leading" id="68E-Bs-Moi"/>
