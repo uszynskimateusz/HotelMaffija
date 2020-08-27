@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,153 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HotelMaffija" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Vhn-bO-SWD">
+                                <rect key="frame" x="0.0" y="52" width="414" height="810"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a7f-c1-dXO" userLabel="titleView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="202.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gag-52-xQQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="202.5"/>
+                                                <state key="normal" title="hotelmaffija" image="hotelmaffija"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Gag-52-xQQ" secondAttribute="trailing" id="1L7-gZ-2ui"/>
+                                            <constraint firstAttribute="bottom" secondItem="Gag-52-xQQ" secondAttribute="bottom" id="5Ce-ZD-JlA"/>
+                                            <constraint firstItem="Gag-52-xQQ" firstAttribute="centerX" secondItem="a7f-c1-dXO" secondAttribute="centerX" id="7J5-lw-dl7"/>
+                                            <constraint firstItem="Gag-52-xQQ" firstAttribute="top" secondItem="a7f-c1-dXO" secondAttribute="top" id="Bwe-un-Me8"/>
+                                            <constraint firstItem="Gag-52-xQQ" firstAttribute="leading" secondItem="a7f-c1-dXO" secondAttribute="leading" id="ax8-dc-paA"/>
+                                            <constraint firstItem="Gag-52-xQQ" firstAttribute="centerY" secondItem="a7f-c1-dXO" secondAttribute="centerY" id="i39-Us-ELT"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9jb-Zi-7NZ" userLabel="topView">
+                                        <rect key="frame" x="0.0" y="202.5" width="414" height="202.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="P2j-bG-gYd">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="202.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qo-qf-JOh">
+                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="202.5"/>
+                                                        <state key="normal" title="przepisnadziendobry" image="przepisnadziendobry"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vly-ds-962">
+                                                        <rect key="frame" x="138" y="0.0" width="138" height="202.5"/>
+                                                        <state key="normal" title="bioresiewgarsc" image="bioresiewgarsc"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMw-ZT-NDu">
+                                                        <rect key="frame" x="276" y="0.0" width="138" height="202.5"/>
+                                                        <state key="normal" title="aniepamietaszjak" image="aniepamietaszjak"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="P2j-bG-gYd" firstAttribute="top" secondItem="9jb-Zi-7NZ" secondAttribute="top" id="0LP-qf-n06"/>
+                                            <constraint firstItem="P2j-bG-gYd" firstAttribute="centerY" secondItem="9jb-Zi-7NZ" secondAttribute="centerY" id="4bC-oZ-TtP"/>
+                                            <constraint firstItem="P2j-bG-gYd" firstAttribute="leading" secondItem="9jb-Zi-7NZ" secondAttribute="leading" id="GAn-5f-dpH"/>
+                                            <constraint firstAttribute="trailing" secondItem="P2j-bG-gYd" secondAttribute="trailing" id="bGm-jQ-VHN"/>
+                                            <constraint firstItem="P2j-bG-gYd" firstAttribute="centerX" secondItem="9jb-Zi-7NZ" secondAttribute="centerX" id="g39-0N-9WP"/>
+                                            <constraint firstAttribute="bottom" secondItem="P2j-bG-gYd" secondAttribute="bottom" id="jqe-JW-0xi"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DCT-NG-V8E" userLabel="middleView">
+                                        <rect key="frame" x="0.0" y="405" width="414" height="202.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="DdS-0C-hzR">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="202.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OsM-IB-WyZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="202.5"/>
+                                                        <state key="normal" title="lasy" image="lasy"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="064-Sj-IZL">
+                                                        <rect key="frame" x="138" y="0.0" width="138" height="202.5"/>
+                                                        <state key="normal" title="dlasiostr" image="dlasiostr"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0e-E3-d8F">
+                                                        <rect key="frame" x="276" y="0.0" width="138" height="202.5"/>
+                                                        <state key="normal" title="niemarajubezweza" image="niemarajubezweza"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="DdS-0C-hzR" secondAttribute="trailing" id="26H-oz-40Z"/>
+                                            <constraint firstItem="DdS-0C-hzR" firstAttribute="centerX" secondItem="DCT-NG-V8E" secondAttribute="centerX" id="Cqc-7f-YwX"/>
+                                            <constraint firstItem="DdS-0C-hzR" firstAttribute="centerY" secondItem="DCT-NG-V8E" secondAttribute="centerY" id="IR8-AL-dHK"/>
+                                            <constraint firstAttribute="bottom" secondItem="DdS-0C-hzR" secondAttribute="bottom" id="u9m-4u-V8Z"/>
+                                            <constraint firstItem="DdS-0C-hzR" firstAttribute="leading" secondItem="DCT-NG-V8E" secondAttribute="leading" id="ueL-VZ-5zJ"/>
+                                            <constraint firstItem="DdS-0C-hzR" firstAttribute="top" secondItem="DCT-NG-V8E" secondAttribute="top" id="x7z-aq-5bi"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qnb-d1-TbP" userLabel="bottomView">
+                                        <rect key="frame" x="0.0" y="607.5" width="414" height="202.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fXJ-pp-h6P">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="202.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMn-nM-wch">
+                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="202.5"/>
+                                                        <state key="normal" title="zimnanociszybkieauta" image="zimnanociszybkieauta"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWa-2z-vj9">
+                                                        <rect key="frame" x="138" y="0.0" width="138" height="202.5"/>
+                                                        <state key="normal" title="lttn" image="lttn"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OAY-3T-TnG">
+                                                        <rect key="frame" x="276" y="0.0" width="138" height="202.5"/>
+                                                        <state key="normal" title="znowurazem" image="znowurazem"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="fXJ-pp-h6P" firstAttribute="centerX" secondItem="qnb-d1-TbP" secondAttribute="centerX" id="2A6-Td-otv"/>
+                                            <constraint firstItem="fXJ-pp-h6P" firstAttribute="leading" secondItem="qnb-d1-TbP" secondAttribute="leading" id="68E-Bs-Moi"/>
+                                            <constraint firstItem="fXJ-pp-h6P" firstAttribute="centerY" secondItem="qnb-d1-TbP" secondAttribute="centerY" id="AhR-ZT-omP"/>
+                                            <constraint firstAttribute="bottom" secondItem="fXJ-pp-h6P" secondAttribute="bottom" id="DUu-pz-9OQ"/>
+                                            <constraint firstItem="fXJ-pp-h6P" firstAttribute="top" secondItem="qnb-d1-TbP" secondAttribute="top" id="Vtw-rB-he7"/>
+                                            <constraint firstAttribute="trailing" secondItem="fXJ-pp-h6P" secondAttribute="trailing" id="aIi-3h-ZTo"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Vhn-bO-SWD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="EpA-5G-EHy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Vhn-bO-SWD" secondAttribute="bottom" id="TSx-nD-1UL"/>
+                            <constraint firstItem="Vhn-bO-SWD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TVD-qr-k7A"/>
+                            <constraint firstAttribute="trailing" secondItem="Vhn-bO-SWD" secondAttribute="trailing" id="ZYK-09-nnq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="119.86607142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="aniepamietaszjak" width="550" height="550"/>
+        <image name="bioresiewgarsc" width="1000" height="1000"/>
+        <image name="dlasiostr" width="1000" height="1000"/>
+        <image name="hotelmaffija" width="1280" height="720"/>
+        <image name="lasy" width="300" height="300"/>
+        <image name="lttn" width="720" height="720"/>
+        <image name="niemarajubezweza" width="550" height="550"/>
+        <image name="przepisnadziendobry" width="1000" height="1000"/>
+        <image name="zimnanociszybkieauta" width="720" height="720"/>
+        <image name="znowurazem" width="1000" height="1000"/>
+    </resources>
 </document>
