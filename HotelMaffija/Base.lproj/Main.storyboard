@@ -23,7 +23,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gag-52-xQQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="192"/>
-                                                <state key="normal" title="hotelmaffija" image="hotelmaffija"/>
+                                                <state key="normal" title="SB Maffija - Hotel Maffija" image="hotelmaffija"/>
                                                 <connections>
                                                     <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O9V-bY-CMj"/>
                                                 </connections>
@@ -46,21 +46,21 @@
                                                 <subviews>
                                                     <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qo-qf-JOh">
                                                         <rect key="frame" x="0.0" y="0.0" width="138" height="192"/>
-                                                        <state key="normal" title="przepisnadziendobry" image="przepisnadziendobry"/>
+                                                        <state key="normal" title="SB Maffija - Przepis na dzień dobry" image="przepisnadziendobry"/>
                                                         <connections>
                                                             <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4U0-4h-naJ"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vly-ds-962">
                                                         <rect key="frame" x="138" y="0.0" width="138" height="192"/>
-                                                        <state key="normal" title="bioresiewgarsc" image="bioresiewgarsc"/>
+                                                        <state key="normal" title="SB Maffija - Biorę się w garść" image="bioresiewgarsc"/>
                                                         <connections>
                                                             <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q6M-IF-cYw"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMw-ZT-NDu">
                                                         <rect key="frame" x="276" y="0.0" width="138" height="192"/>
-                                                        <state key="normal" title="aniepamietaszjak" image="aniepamietaszjak"/>
+                                                        <state key="normal" title="SB Maffija - A nie pamiętasz jak" image="aniepamietaszjak"/>
                                                         <connections>
                                                             <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zoF-F8-YGY"/>
                                                         </connections>
@@ -85,21 +85,21 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OsM-IB-WyZ">
                                                         <rect key="frame" x="0.0" y="0.0" width="138" height="192"/>
-                                                        <state key="normal" title="lasy" image="lasy"/>
+                                                        <state key="normal" title="SB Maffija - Lasy" image="lasy"/>
                                                         <connections>
                                                             <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JLX-6U-M4c"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="064-Sj-IZL">
                                                         <rect key="frame" x="138" y="0.0" width="138" height="192"/>
-                                                        <state key="normal" title="dlasiostr" image="dlasiostr"/>
+                                                        <state key="normal" title="SB Maffija - Dla sióstr" image="dlasiostr"/>
                                                         <connections>
                                                             <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rFx-Et-KpT"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0e-E3-d8F">
                                                         <rect key="frame" x="276" y="0.0" width="138" height="192"/>
-                                                        <state key="normal" title="niemarajubezweza" image="niemarajubezweza"/>
+                                                        <state key="normal" title="SB Maffija - Nie ma raju bez węża" image="niemarajubezweza"/>
                                                         <connections>
                                                             <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Md-hL-Aat"/>
                                                         </connections>
@@ -124,21 +124,21 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMn-nM-wch">
                                                         <rect key="frame" x="0.0" y="0.0" width="138" height="192"/>
-                                                        <state key="normal" title="zimnanociszybkieauta" image="zimnanociszybkieauta"/>
+                                                        <state key="normal" title="SB Maffija - Zimna noc i szybkie auta" image="zimnanociszybkieauta"/>
                                                         <connections>
                                                             <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LE6-gK-v7R"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWa-2z-vj9">
                                                         <rect key="frame" x="138" y="0.0" width="138" height="192"/>
-                                                        <state key="normal" title="lttn" image="lttn"/>
+                                                        <state key="normal" title="SB Maffija - LTTN" image="lttn"/>
                                                         <connections>
                                                             <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Onh-Ss-Hfv"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OAY-3T-TnG">
                                                         <rect key="frame" x="276" y="0.0" width="138" height="192"/>
-                                                        <state key="normal" title="znowurazem" image="znowurazem"/>
+                                                        <state key="normal" title="SB Maffija - ZNOWU RAZEM" image="znowurazem"/>
                                                         <connections>
                                                             <action selector="songPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rSq-kw-ECa"/>
                                                         </connections>
